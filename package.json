@@ -1,6 +1,6 @@
 {
   "name": "json-xml-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple CLI to convert json file to xml file",
   "types": "./lib/index.d.ts",
   "bin": {

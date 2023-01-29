@@ -15,7 +15,7 @@ yarn add json-xml-converter
 With only one argument `input`, return xml data format:
 
 ```bash
-excel-json-converter --input example.xlsx
+json-xml-converter --input example.json
 ```
 
 With two arguments `input` and `output`, return data .xml file:
