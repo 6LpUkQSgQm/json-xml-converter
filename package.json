@@ -2,7 +2,6 @@
   "name": "json-xml-converter",
   "version": "1.0.0",
   "description": "A simple CLI to convert json file to xml file",
-  "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "bin": {
     "json-xml-converter": "./lib/index.js"
@@ -12,7 +11,7 @@
     "start:windows": "nodemon --watch 'src/**/*.ts' --exec \"npx ts-node\" src/index.ts",
     "build": "tsc -p .",
     "local": "sudo npm i -g && json-xml-converter",
-    "refresh": "rm -rf ./node_modules ./package-lock.json && npm install",
+    "refresh": "rm -rf ./node_modules ./package-lock.json && yarn install",
     "test": "jest --coverage"
   },
   "repository": {
@@ -44,13 +43,13 @@
     "clear": "^0.1.0",
     "commander": "^9.5.0",
     "eslint": "^8.31.0",
+    "fast-xml-parser": "^4.0.15",
     "figlet": "^1.5.2",
     "jest": "^29.3.1",
     "nodemon": "^2.0.20",
     "path": "^0.12.7",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
-    "typescript": "^4.9.4",
-    "xlsx": "^0.18.5"
+    "typescript": "^4.9.4"
   }
 }

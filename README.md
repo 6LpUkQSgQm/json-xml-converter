@@ -1,31 +1,31 @@
 # excel-json-converter
 
-[![Build Status](https://api.travis-ci.com/6LpUkQSgQm/excel-json-converter.svg?branch=main&status=started)](https://api.travis-ci.com/6LpUkQSgQm/excel-json-converter.svg?branch=main&status=started)
+[![Build Status](https://api.travis-ci.com/6LpUkQSgQm/json-xml-converter.svg?branch=main&status=started)](https://api.travis-ci.com/6LpUkQSgQm/json-xml-converter.svg?branch=main&status=started)
 
-Simple CLI to convert Excel file to Json format.
+Simple CLI to convert json file to xml format.
 
 # Install
 
 ```bash
-yarn add excel-json-converter
+yarn add json-xml-converter
 ```
 
 # Usages
 
-With only one argument `input`, return Json data format:
+With only one argument `input`, return xml data format:
 
 ```bash
 excel-json-converter --input example.xlsx
 ```
 
-With two arguments `input` and `output`, return data .json file:
+With two arguments `input` and `output`, return data .xml file:
 
 ```bash
-excel-json-converter --input example.xlsx --output example.json
+json-xml-converter --input example.json --output example.xml
 ```
 
 To check the help section:
 
 ```bash
-excel-json-converter --help
+json-xml-converter --help
 ```

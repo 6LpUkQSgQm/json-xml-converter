@@ -1,5 +1,5 @@
 declare const jsonToXml: (config: {
     input: string;
     output: string;
-}) => void;
+}) => string | void;
 export default jsonToXml;
